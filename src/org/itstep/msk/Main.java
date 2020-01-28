@@ -9,6 +9,6 @@ public class Main {
      * @param args Аргументы программы
      */
     public static void main(String[] args) {
-	// write your code here
+        org.itstep.msk.lesson1.Main.main(args);
     }
 }
