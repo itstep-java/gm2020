@@ -12,6 +12,7 @@ public class Main {
 //        org.itstep.msk.lesson1.Main.main(args);
 //        org.itstep.msk.homework1.Main.main(args);
 //        org.itstep.msk.lesson2.Main.main(args);
-        org.itstep.msk.lesson3.Main.main(args);
+//        org.itstep.msk.lesson3.Main.main(args);
+        org.itstep.msk.lesson4.Main.main(args);
     }
 }

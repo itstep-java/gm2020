@@ -1,5 +1,8 @@
 package org.itstep.msk.lesson3;
 
+/**
+ * Урок 3. ООП. Инкапсуляция, наследование, абстракция
+ */
 public class Main {
     public static void main(String[] args) {
         Table table1 = new Table("Желтый");
