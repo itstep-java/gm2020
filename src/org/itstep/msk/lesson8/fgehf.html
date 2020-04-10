@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<ul>
+    <li th:each="record : ${user.audioRecords}">
+        <span th:text="${record.originalFilename}"
+        <a href="@{/uploads/audio/{id}(id=${record.id})}" class="play">Play</a>
+        <a href="@{/uploads/audio/{id}(id=${record.id})}" class="pause">Pause</a>
+    </li>
+</ul>
+<script>
+    const audio = $("#sound");
+    $("play").click(function (event) {
+        event.preventDefault();
+    });
+</script>
+</body>
+</html>
